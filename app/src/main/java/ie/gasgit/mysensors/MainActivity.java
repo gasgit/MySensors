@@ -92,8 +92,18 @@ public class MainActivity extends AppCompatActivity {
                 });
                 return true;
 
-            case R.id.item3:
-                Toast.makeText(getApplicationContext(),"Item 3 Selected",Toast.LENGTH_LONG).show();
+            case R.id.menu_hardware_info:
+                Toast.makeText(getApplicationContext(),"Press for Hardware list",Toast.LENGTH_LONG).show();
+                Intent hwIntent = new Intent(MainActivity.this, HardwareActivity.class);
+                startActivity(hwIntent);
+
+                return true;
+
+            case R.id.menu_process_info:
+                Toast.makeText(getApplicationContext(),"Current Process info",Toast.LENGTH_LONG).show();
+                Intent procIntent = new Intent(MainActivity.this, ProcessActivity.class);
+                startActivity(procIntent);
+
                 return true;
 
             default:

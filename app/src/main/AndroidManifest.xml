@@ -19,7 +19,12 @@
         <activity
             android:name=".ListItemDisplay"
             android:label="@string/title_activity_list_item"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HardwareActivity"
+            android:label="@string/title_activity_hardware"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProcessActivity"></activity>
     </application>
 
 </manifest>

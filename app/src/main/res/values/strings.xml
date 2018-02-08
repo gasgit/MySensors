@@ -2,5 +2,10 @@
     <string name="app_name">MySensors</string>
     <string name="array_adapter">ArrayAdapter</string>
     <string name="sensor_adapter">SensorAdapter</string>
+    <string name="menu_hardware">Hardware</string>
+    <string name="menu_process">Processes</string>
+
+
     <string name="title_activity_list_item">ListItemActivity</string>
+    <string name="title_activity_hardware">HardwareActivity</string>
 </resources>

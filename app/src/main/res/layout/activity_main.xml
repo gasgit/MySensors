@@ -11,12 +11,13 @@
         android:layout_height="fill_parent">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv"
-        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:gravity="center"
         
-        android:text="Select\n View \n From \n Menu"
+        android:text="Select View From Menu"
         android:textSize="36sp"
          />
 
